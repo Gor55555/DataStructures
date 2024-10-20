@@ -15,8 +15,8 @@ namespace STD
 		Vector();                                      //Default Constructor
 		Vector(size_t size_);                          //Parameterized Constructor
 		Vector(size_t size_, const T& value);          //Parameterized and Fill Constructor
-	    Vector(const Vector& other);                   //Copy Constructor(Deep Copy)
-	    Vector& operator=(const Vector& other);        //Copy Assignment Operator
+		Vector(const Vector& other);                   //Copy Constructor(Deep Copy)
+		Vector& operator=(const Vector& other);        //Copy Assignment Operator
 		Vector operator+(const Vector& other);         //Addition Operator Overloading
 		Vector(Vector&& other) noexcept;               //Move constructor
 		Vector& operator=(Vector&& other) noexcept;    //Move Assignment Operator
